@@ -6,6 +6,7 @@ import Euclid as ec
 import Pascal as pc
 import notation as con 
 
+
 def main():
     usr = input('Если вы хотите выбрать поиск НОД по алгоритму Евклида, то напишите 1 \nЕсли вы хотите вывести треугольник Паскаля с n рядов, то напишите 2 \nЕсли хотите перевести с 10 в лругую сиситему любого числа, то напишите 3\n')
     if usr == '1':  # take two numbers and calculate gcd
@@ -21,8 +22,6 @@ def main():
         print(f'Число {num} в системе счисления с основанием {base}: {con.notation(num, base)}')
     else:
         print(f'Эй, чурчхела просили же нормальный ввод 1, 2 и 3, а это - {usr} что такое') #output in case of incorrect input
-
-
 
 
 if __name__ == '__main__':
