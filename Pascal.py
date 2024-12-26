@@ -2,7 +2,7 @@
 #=================================
 
 
-def pascal(n, lol=None): #write a Pascal triangle
+def pascal(n, lol=None) -> list: #write a Pascal triangle
     if lol is None:
         lol = [[1]]
     if n == 1:
